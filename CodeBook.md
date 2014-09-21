@@ -1,8 +1,15 @@
-## Cook book
----------
+# Cook book
+
 For each record in the dataset it is provided:
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope.
+
+* <b>Activity</b>: Activity label, e.g.: laying, sitting, standing, etc.
+
+* <b>Subject</b>: id of subject.
+* <b>Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration:</b> tbodyacc...
+
+* <b>Triaxial Angular velocity from the gyroscope:</b> tgravityacc...
+
+
 - A 561-feature vector with time and frequency domain variables.
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
