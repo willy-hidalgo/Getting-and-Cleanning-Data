@@ -6,11 +6,11 @@ The script works as follows:
 <ol>
 <li>Set the working directory using <b>setwd</b> command.</li>
 <li>Load the librarys that I used: <b>reshape</b> and <b>ply</b></li>
-<li>Read the train and test data using <b>read.table</b> command for each file:
 
-* <b>Train set</b>: x_train.txt, y_train.txt, subject_train.txt
+<li>Load the train data set using <b>read.table</b> command: x_train.txt, y_train.txt, subject_train.txt</li>
 
-* <b>Test set</b>: x_test.txt, y_test.txt, subject_test.txt
+<li>Load the test data set using <b>read.table</b> command:
+ x_test.txt, y_test.txt, subject_test.txt
 </li>
 
 <li>Read the headings ("features") from <b>features.txt</b></li>
